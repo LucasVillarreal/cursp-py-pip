@@ -39,7 +39,7 @@ def generate_pie_chart(name, label, values):
   fig, ax = plt.subplots()
   ax.pie(values, labels=label)
   ax.axis('equal')
-  plt.savefig(f'./app/imgs/{name}.png')
+  plt.savefig(f'./imgs/{name}.png')
   plt.show()
 
 # Fun donde leemos el archivo
